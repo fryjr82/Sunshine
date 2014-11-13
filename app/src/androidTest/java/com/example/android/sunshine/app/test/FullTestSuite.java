@@ -4,9 +4,8 @@ import android.test.suitebuilder.TestSuiteBuilder;
 
 import junit.framework.Test;
 
-/**
- * Created by gfreyenberger on 11/13/2014.
- */
+//TEST SUITE!!!
+
 public class FullTestSuite {
     public static Test suite() {
         return new TestSuiteBuilder(FullTestSuite.class)
@@ -17,4 +16,3 @@ public class FullTestSuite {
         super();
     }
 }
-//TEST

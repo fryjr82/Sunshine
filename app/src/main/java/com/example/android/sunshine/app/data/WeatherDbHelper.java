@@ -8,9 +8,10 @@ import com.example.android.sunshine.app.data.WeatherContract.LocationEntry;
 import com.example.android.sunshine.app.data.WeatherContract.WeatherEntry;
 
 /**
- * Created by gfreyenberger on 11/13/2014.
+ * Manages a local database for weather data.
  */
 public class WeatherDbHelper extends SQLiteOpenHelper {
+
     // If you change the database schema, you must increment the database version.
     private static final int DATABASE_VERSION = 1;
 
